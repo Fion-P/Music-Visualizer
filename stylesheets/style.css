@@ -1,0 +1,34 @@
+#audio-btn {
+    position: absolute;
+    z-index: 5;
+    background: #ffffff2b;
+    border: white;
+    color: white;
+    border-radius: 3px;
+    padding: 5px 25px;
+    /* opacity: 0.15; */
+    font-size: 55px;
+    cursor: pointer;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body {
+    /* line-height: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+button#fullscreen {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 100;
+}
